@@ -1,18 +1,7 @@
-satya@SATYA-TUF:~$  curl -I HEAD -i http://mercury.picoctf.net:53554/index.php
-
-Command 'curl' not found, but can be installed with:
-
-sudo snap install curl  # version 7.84.0, or
-sudo apt  install curl  # version 7.68.0-1ubuntu2.12
-
-See 'snap info curl' for additional versions.
-
-satya@SATYA-TUF:~$ sudo snap install curl
-[sudo] password for satya: 
-curl 7.84.0 from Wouter van Bommel (woutervb) installed
-satya@SATYA-TUF:~$  curl -I HEAD -i http://mercury.picoctf.net:53554/index.php
+satya@SATYA-TUF:~$ curl -I HEAD -i http://mercury.picoctf.net:47967/index.php
 curl: (6) Could not resolve host: HEAD
 HTTP/1.1 200 OK
-flag: picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f}
+flag: picoCTF{r3j3ct_th3_du4l1ty_cca66bd3}
 Content-type: text/html; charset=UTF-8
+
 
